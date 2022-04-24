@@ -1,0 +1,30 @@
+@import "../../styles/index";
+
+.navigation {
+  width: 100%;
+  height: calc(50px + 50 * (100vw / 1200));
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  padding-left: calc(5px + 10 * (100vw / 1200));
+  padding-right: calc(5px + 10 * (100vw / 1200));
+
+  &__item {
+    // padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    font-size: calc(15px + 5 * (100vw / 1200));
+    padding: calc(5px + 5 * (100vw / 1200));
+    transition: all 0.8s ease 0s;
+
+    &:hover {
+      color: $blue;
+      transform: scale(1.1, 1.2);
+      transition: all 0.5s ease 0s;
+    }
+  }
+}

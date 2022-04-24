@@ -1,1 +1,15 @@
+@import "../../styles/index";
 
+.title {
+  font-weight: 700;
+  color: $black;
+
+  &__wrapper {
+    padding: 35px;
+  }
+}
+
+.subtitle {
+  color: $black;
+  font-weight: 500;
+}
