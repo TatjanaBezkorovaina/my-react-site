@@ -1,9 +1,27 @@
 // colors
-$mainColor: #00bcd4;
-$blue: #0178bf;
-$black: #000000;
-$white: #ffffff;
-$gradient: linear-gradient(to right, #ff00cc, #333399);
+// $c-hover: #0178bf;
+// $c-background: #000000;
+// $c-text: #ffffff;
+// dark theme
+
+html[data-theme="dark"] {
+  background: var(--background);
+  --hover: #0178bf;
+  --background: #000000;
+  --text: #ffffff;
+}
+
+// light theme
+
+html[data-theme="light"] {
+  background: var(--background);
+  --hover: #000000;
+  --background: #ffffff;
+  --text: #0178bf;
+}
+
+// $gradient: linear-gradient(to right, #ff00cc, #333399);
+// $mainColor: #00bcd4;
 
 // fonts
 
