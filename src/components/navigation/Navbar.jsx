@@ -6,8 +6,10 @@ import Projects from "../../pages/projects/Projects";
 import MainWrapper from "../../pages/main/Main.wrapper";
 import { Icon } from "@iconify/react";
 import Button from "../button/Button";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Router>
@@ -19,11 +21,11 @@ const Navbar = () => {
           </Link>
           <br />
           <Link to="/About" className="navigation__item">
-            About Me
+            {t("about")}
           </Link>
           <br />
           <Link to="/Projects" className="navigation__item">
-            Projects
+            {t("sites")}
           </Link>
           <br />
           <Button />
