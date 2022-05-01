@@ -6,6 +6,7 @@ import i18next from "i18next";
 import "./button.scss";
 
 const Button = () => {
+  // Multilanguage
   const { i18n } = useTranslation();
 
   useEffect(() => {
@@ -17,6 +18,8 @@ const Button = () => {
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
   };
+
+  // change themes
 
   // eslint-disable-next-line
   const { theme, setTheme } = useTheme();
@@ -32,14 +35,17 @@ const Button = () => {
     <>
       <div className="btn__groups">
         <div className="btn__group-theme">
-          <button className="btn" onClick={handleLightThemeClick}>
-            <Icon icon="bxs:sun" />
+          <button className={"btn btn__light"} onClick={handleLightThemeClick}>
+            <Icon className="icon-theme" icon="bxs:sun" />
           </button>
           <button className="btn" onClick={handleDarkThemeClick}>
-            <Icon icon="emojione-monotone:crescent-moon" />
+            <Icon
+              className="icon-theme"
+              icon="emojione-monotone:crescent-moon"
+            />
           </button>
         </div>
-        <div className="btn__group-flag">
+        <div className="btn__group-language">
           <select
             className="select__block"
             value={localStorage.getItem("i18nextLng")}
