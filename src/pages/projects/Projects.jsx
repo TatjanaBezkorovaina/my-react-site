@@ -7,7 +7,50 @@ const Projects = () => {
   return (
     <>
       <div className="projects">
-        <h2>{t("sites")}</h2>
+        <div className="projects__wrapper">
+          {/* project 1 */}
+          <div className="project">
+            <div className="project__title">
+              <a className="project__title-href" href="https://agency-webovio.vercel.app/index.html" target={"_blanc"}>
+                Webovio - {t("site_creative_agency")}: <nobr>https://agency-webovio.vercel.app/</nobr>
+              </a>
+            </div>
+            <div class="embed-container">
+              <iframe title="Webovio" src="https://www.youtube.com/embed//AGFiOHCYMLI" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          {/* project 2*/}
+          <div className="project">
+            <div className="project__title">
+              <a className="project__title-href" href="https://indoor-shop.vercel.app/" target={"_blanc"}>
+                Indoor - {t("internet_store")}: <nobr>https://indoor-shop.vercel.app/</nobr>
+              </a>
+            </div>
+            <div class="embed-container">
+              <iframe title="Indoor" src="https://www.youtube.com/embed//O9UMnYLYXa0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          {/* project 3 */}
+          <div className="project">
+            <div className="project__title">
+              <a className="project__title-href" href="https://trafico-site.netlify.app/" target={"_blanc"}>
+                Trafico - {t("site_about_transport_services")}: <nobr>https://indoor-shop.vercel.app/</nobr>
+              </a>
+            </div>
+            <div class="embed-container">
+              <iframe title="Trafico" src="https://www.youtube.com/embed//rwt62XZrwGA" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div className="project__play">
+            <div className="project__title">
+              {t("java_script_game")} "{t("numbers")}" :
+            </div>
+
+            <a href="https://game-numbers.netlify.app/" target={"_blanc"}>
+              <h2 className="project__play-title">{t("let's_play")}!</h2>
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );

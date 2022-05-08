@@ -1,6 +1,7 @@
 @import "../../styles/index";
 
 .about {
+  border-bottom: 1px solid var(--text);
   font-size: calc(16px + 5 * (100vw / 1440));
   line-height: 26px;
   font-weight: 500;
