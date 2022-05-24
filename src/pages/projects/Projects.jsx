@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="project">
             <div className="project__title">
               <a className="project__title-href" href="https://trafico-site.netlify.app/" target={"_blanc"}>
-                Trafico - {t("site_about_transport_services")}: <nobr>https://indoor-shop.vercel.app/</nobr>
+                Trafico - {t("site_about_transport_services")}: <nobr>https://trafico-site.netlify.app/</nobr>
               </a>
             </div>
             <div class="embed-container">

@@ -20,11 +20,11 @@ const Navbar = () => {
             <Icon icon="akar-icons:home" />
           </Link>
           <br />
-          <Link to="/About" className="navigation__item">
+          <Link to="/about" className="navigation__item">
             {t("about")}
           </Link>
           <br />
-          <Link to="/Projects" className="navigation__item">
+          <Link to="/projects" className="navigation__item">
             {t("sites")}
           </Link>
           <br />
