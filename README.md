@@ -1,3 +1,4 @@
+https://tetianabezkorovaina.vercel.app/
 https://portfolio-site-bezkorovaina-t.herokuapp.com/
 
 My portfolio site is built on React, with options to change the theme and language
