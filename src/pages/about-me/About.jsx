@@ -19,8 +19,7 @@ const About = () => {
             <h4 className="about__education">{t("education")}:</h4>
             <div>2021</div>
             <div>
-              Front-end {t("development")} |{" "}
-              <nobr>Beetroot Academy &nbsp;</nobr>
+              Front-end {t("development")} | <nobr>Beetroot Academy &nbsp;</nobr>
               <Icon className="icon__about" icon="zondicons:education" />
             </div>
           </div>
@@ -30,10 +29,7 @@ const About = () => {
               <div className="skills">
                 <li className="skill__1">
                   {t("i_can_work_with")} Visual Studio Code, Figma&nbsp;&nbsp;
-                  <Icon
-                    className="icon__about"
-                    icon="logos:visual-studio-code"
-                  />
+                  <Icon className="icon__about" icon="logos:visual-studio-code" />
                   &nbsp;&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:figma" />
                 </li>
@@ -50,49 +46,52 @@ const About = () => {
                   <Icon className="icon__about" icon="logos:javascript" />
                 </li>
                 <li className="skill__4">
-                  {t("i_can_use")} {t("pre-processor")} Sass {t("and")}{" "}
-                  BEM&nbsp;
+                  {t("expirience_with_Wordpress")} &nbsp;
+                  <Icon className="icon__about" icon="fa-brands:wordpress" />
+                </li>
+                <li className="skill__5">
+                  {t("i_can_use")} {t("pre-processor")} Sass {t("and")} BEM&nbsp;
                   {t("methodology")}&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:sass" />
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="file-icons:bem" />
                 </li>
-                <li className="skill__5">
-                  {t("i_can_work_with")} SVG{" "}
-                  {t("graphics_and_create_animations")}
+                <li className="skill__6">
+                  {t("i_can_work_with")} SVG {t("graphics_and_create_animations")}
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="ci:file-svg" />
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="mdi:animation-play" />
                 </li>
-                <li className="skill__6">
-                  {t("i_know")} Bootstrap&nbsp;&nbsp;
-                  <Icon
-                    className="icon__about"
-                    icon="akar-icons:bootstrap-fill"
-                  />
-                </li>
                 <li className="skill__7">
+                  {t("i_know")} Bootstrap&nbsp;&nbsp;
+                  <Icon className="icon__about" icon="akar-icons:bootstrap-fill" />
+                </li>
+                <li className="skill__8">
                   {t("i_use_frameworks")} React {t("and")} i18next&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:react" />
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="simple-icons:i18next" />
                 </li>
-                <li className="skill__8">
+                <li className="skill__9">
                   {t("i_know")} {t("task_manager")} Gulp&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:gulp" />
                 </li>
-                <li className="skill__9">
+                <li className="skill__10">
                   {t("i_know")} {t("principles")} SEO&nbsp;&nbsp;
                   <Icon className="icon__about" icon="icon-park-outline:seo" />
                 </li>
-                <li className="skill__10">
+                <li className="skill__11">
                   {t("group_work")}&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:microsoft-teams" />
                 </li>
-                <li className="skill__11">
+                <li className="skill__12">
                   {t("remote_server")}, AJAX &nbsp;&nbsp;
                   <Icon className="icon__about" icon="carbon:server-proxy" />
+                </li>
+                <li className="skill__13">
+                  {t("i_can_use")} FileZilla &nbsp;&nbsp;
+                  <Icon className="icon__about" icon="simple-icons:filezilla" />
                 </li>
               </div>
             </ul>
@@ -102,31 +101,19 @@ const About = () => {
               {t("languages")}:
               <li>
                 {t("ukrainian")}&nbsp;&nbsp;
-                <Icon
-                  className="icon__about"
-                  icon="emojione-v1:flag-for-ukraine"
-                />
+                <Icon className="icon__about" icon="emojione-v1:flag-for-ukraine" />
               </li>
               <li>
                 {t("english")}&nbsp;&nbsp;
-                <Icon
-                  className="icon__about"
-                  icon="emojione-v1:flag-for-united-kingdom"
-                />
+                <Icon className="icon__about" icon="emojione-v1:flag-for-united-kingdom" />
               </li>
               <li>
                 {t("french")}&nbsp;&nbsp;
-                <Icon
-                  className="icon__about"
-                  icon="emojione-v1:flag-for-wallis-and-futuna"
-                />
+                <Icon className="icon__about" icon="emojione-v1:flag-for-wallis-and-futuna" />
               </li>
               <li>
                 {t("russian")}&nbsp;&nbsp;
-                <Icon
-                  className="icon__about"
-                  icon="emojione-v1:flag-for-white-flag"
-                />
+                <Icon className="icon__about" icon="emojione-v1:flag-for-white-flag" />
               </li>
             </ul>
           </div>
