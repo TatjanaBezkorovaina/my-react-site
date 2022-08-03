@@ -1,3 +1,12 @@
+https://portfolio-site-bezkorovaina-t.herokuapp.com/
+
+My portfolio site is built on React, with options to change the theme and language
+
+![React](https://img.shields.io/badge/React-18.0.0-orange)
+![i18next](https://img.shields.io/badge/i18next-%20-brightgreen)
+
+![header](./src/assets/header.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

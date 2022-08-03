@@ -111,10 +111,6 @@ const About = () => {
                 {t("french")}&nbsp;&nbsp;
                 <Icon className="icon__about" icon="emojione-v1:flag-for-wallis-and-futuna" />
               </li>
-              <li>
-                {t("russian")}&nbsp;&nbsp;
-                <Icon className="icon__about" icon="emojione-v1:flag-for-white-flag" />
-              </li>
             </ul>
           </div>
         </div>
