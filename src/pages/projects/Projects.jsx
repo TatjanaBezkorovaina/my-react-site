@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
                 {
                   <div class="embed-container">
-                    <iframe title="Organic Store" src="https://youtu.be/amEg22DXxzg" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="Organic Store" src="https://www.youtube.com/embed/amEg22DXxzg" frameborder="0" allowfullscreen></iframe>
                   </div>
                 }
               </div>
