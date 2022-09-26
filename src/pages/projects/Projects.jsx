@@ -17,9 +17,11 @@ const Projects = () => {
                     Organic Store <br /> {t("site_organic_store", "wordpress")}: <nobr>https://organicstore.cms.pl.ua/</nobr>
                   </a>
                 </div>
-                {/* <div class="embed-container">
-              <iframe title="Trafico" src="https://www.youtube.com/embed//rwt62XZrwGA" frameborder="0" allowfullscreen></iframe>
-            </div> */}
+                {
+                  <div class="embed-container">
+                    <iframe title="Organic Store" src="https://youtu.be/amEg22DXxzg" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                }
               </div>
             </li>
             <li>
