@@ -14,7 +14,7 @@ const Projects = () => {
               <div className="project">
                 <div className="project__title">
                   <div className="project__title-href" target={"_blanc"}>
-                    Organic Store <br /> {t("site_organic_store", "wordpress")}: <nobr>https://organicstore.cms.pl.ua/</nobr>
+                    Organic Store <br /> {t("site_organic_store", "wordpress")}:
                   </div>
                 </div>
                 {
