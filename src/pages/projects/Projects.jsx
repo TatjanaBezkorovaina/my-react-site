@@ -29,7 +29,7 @@ const Projects = () => {
               <div className="project">
                 <div className="project__title">
                   <a className="project__title-href" href="https://agency-webovio.vercel.app/index.html" target={"_blanc"}>
-                    Webovio <br /> {t("site_creative_agency")}: <nobr>https://agency-webovio.vercel.app/</nobr>
+                    Webovio Agency <br /> {t("site_creative_agency")}: <nobr>https://agency-webovio.vercel.app/</nobr>
                   </a>
                 </div>
                 <div class="embed-container">
