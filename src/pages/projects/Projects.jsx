@@ -13,9 +13,9 @@ const Projects = () => {
               {/* project 4 */}
               <div className="project">
                 <div className="project__title">
-                  <a className="project__title-href" href="https://organicstore.cms.pl.ua/" target={"_blanc"}>
+                  <div className="project__title-href" href="https://organicstore.cms.pl.ua/" target={"_blanc"}>
                     Organic Store <br /> {t("site_organic_store", "wordpress")}: <nobr>https://organicstore.cms.pl.ua/</nobr>
-                  </a>
+                  </div>
                 </div>
                 {
                   <div class="embed-container">
